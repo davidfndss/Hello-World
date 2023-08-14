@@ -47,19 +47,25 @@ body{
 #loginid{
   position: absolute;
   top: 50%;
-  left:50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   margin: auto;
   transform: translate();
+  box-shadow: 5px 5px #28002e7c;
+  border-end-end-radius: 5px;
+  border-end-start-radius: 5px;
+  border-start-end-radius: 5px;
+  border-radius: 15px;
 }
 
 div#imageid{
   width: 250px;
   height: 250px;
-  background: url(../img/astronauta.jpg) center;
-  background-size: 600px;
-  background-repeat: no-repeat;
+  background: url(../img/astronauta.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
   border-radius: 15px 15px 0px 0px ;
+  display: block;
 }
 
 #formularioid{
@@ -69,6 +75,13 @@ div#imageid{
   border-radius: 0px 0px 15px 15px;
   box-sizing: border-box;
   padding: 10px;
+  display: block;
+}
+
+h1{
+  color: var(--cor3);
+  text-align: center;
+  padding: 2px;
 }
 
 span{
@@ -87,28 +100,8 @@ input.data{
   border-right-color: var(--cor3);
 }
 
-input.btn{
-  padding: 10px;
-  position: relative;
-  top: 70px;
-  width: 100%;
-  border-radius: 7px;
-  background-color: var(--cor1);
-  color: white;
-  font-size: 0.9rem;
-  font-weight: 900;
-  cursor: pointer;
-}
-
-input.btn:hover{
-  background-color: var(--cor4);
-  transition: 0.4s;
-}
-
 .btnforgot{
   padding: 10px;
-  position: relative;
-  top: 67px;
   width: 100%;
   border-radius: 7px;
   background-color: white;
@@ -117,10 +110,28 @@ input.btn:hover{
   font-size: 0.9rem;
   font-weight: 900;
   cursor: pointer;
+  
 }
 
 .btnforgot:hover{
   background-color: var(--cor5);
   color: white;
   transition: 0.3s;
+}
+
+input.btn{
+  padding: 10px;
+  width: 100%;
+  border-radius: 7px;
+  background-color: var(--cor1);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 900;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+input.btn:hover{
+  background-color: var(--cor4);
+  transition: 0.4s;
 }
