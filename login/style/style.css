@@ -1,6 +1,6 @@
-/* Configurações */
-
 @charset "UTF-8";
+
+/* Configurações */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
@@ -36,7 +36,7 @@
 /*-----------------------------------------------------------*/
 
 body{
-  /*background-image: linear-gradient(var(--cor1),var(--cor3));*/
+  /*background-image: linear-gradient(var(--cor1),var(--cor3) to bottom);*/
   background: url(../img/fundo-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
