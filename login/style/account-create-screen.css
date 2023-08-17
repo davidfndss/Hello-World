@@ -11,7 +11,7 @@
   --cor3: #03061E;
   --cor4: #A8265D;
   --cor5: #adadad;
-  --cor6: #680075;
+  --cor6: #8f00a1;
 }
 
 ::-webkit-scrollbar{
@@ -22,12 +22,15 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 /*---------------------------------*/
 
 body{
+    background-color: #03061E;
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -43,7 +46,6 @@ main{
     border-radius: 15px;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.836);
     font-family: 'League Spartan';
-    margin-top: 20%;
 }
 
 h2 span{
@@ -82,27 +84,29 @@ div#buttonareaid{
 input#submitid{
     color: white;
     background-color: var(--cor1);
-    padding: 15px 25%;
+    padding: 15px 10%;
     border-radius: 7px;
     border: solid 2px #43134A;
     cursor: pointer;
+    width: 95%;
     font-weight: bold;
     font-size: 17px;
 }
 
 input#submitid:hover{
-    background-color: var(--cor6);
+    background-color: var(--cor3);
     font-weight: bolder;
-    border: var(--cor6) 2px solid;
+    border: var(--cor3) 2px solid;
     /*-webkit-box-shadow:inset 0px 0px 0px 1px var(--cor4);*/
     transition: 0.5s;
 }
 
 img{
-    height: 55px;
-    width: 55px;
+    height: 0px;
+    width: 0px;
 }
 
 img:hover{
-
+    opacity: 90%;
+    transition: 0.5s;
 }

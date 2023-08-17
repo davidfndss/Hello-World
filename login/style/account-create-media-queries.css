@@ -9,9 +9,35 @@ Desktop: 992px até 1200px
 Grandes telas: + de 1200px
 */
 
+
+/*----TINY SCREENS----*/
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    main{
+        /*border: solid 2px yellow;*/
+        transition: width 1s, height 1s;
+        transition-timing-function: ease;
+    }
+
+    input#submitid{
+        width: 78%;
+        padding: 15px 15%;
+    }
+
+    img{
+        height: 55px;
+        width: 55px;
+    }
+    
+}
+
+/*----SMALL SCREENS----*/
 @media screen and (min-width: 500px) and (max-width: 767px) {
     main{
-        border: 4px blue solid;
+        width: 60%;
+        /*border: 4px blue solid;*/
+        transition: width 1s, height 1s;
+        transition-timing-function: ease;
     }
     input#submitid{
         width: 85%;
@@ -22,42 +48,79 @@ Grandes telas: + de 1200px
     }
 }
 
+/*----TABLETS----*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     main{
-        border: 4px red solid;
-        padding-bottom: 4px;
+        width: 500px;
+        /*border: 4px red solid;*/
+        padding-bottom: 10px;
+        transition: width 1s, height 1s;
+        transition-timing-function: ease;
     }
     h2{
         font-size: 27px;
     }
     input#submitid{
-        width: 90%;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
     }
     img{
-        height: 70px;
-        width: 70px;
+        height: 65px;
+        width: 65px;
     }
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+/*----DESKTOP----*/
+@media screen and (min-width: 993px) and (max-width: 1199px) {
     body{
         display: flex;
     }
     main{
-        border: 4px green solid;
+        width: 500px;
+        /*border: 4px green solid;*/
         padding-bottom: 10px;
+        transition: width 1s, height 1s;
+        transition-timing-function: ease;
     }
     h2{
         font-size: 27px;
     }
     input#submitid{
-        width: 80%;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
     }
     img{
-        height: 75px;
-        width: 75px;
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
+        height: 65px;
+        width: 65px;
     }
+
+}
+
+/*----LARGE SCREENS----*/
+@media screen and (min-width: 1200px){
+    body{
+        display: flex;
+    }
+    main{
+        width: 500px;
+        /*border: 4px purple solid;*/
+        padding-bottom: 10px;
+        transition: width 1s, height 1s;
+        transition-timing-function: ease;
+    }
+    h2{
+        font-size: 27px;
+    }
+    input#submitid{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img{
+        height: 65px;
+        width: 65px;
+    }
+
 }
