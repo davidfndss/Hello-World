@@ -19,18 +19,11 @@
   'opsz' 48
 }
 
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 900,
-    'GRAD' 0,
-    'opsz' 48
-}
-
 *{
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /*-----------------------------------------------------------*/
@@ -45,23 +38,23 @@ body{
   height: 100vh;
 }
 
-#loginid{
+section{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: auto;
-  transform: translate();
   box-shadow: 4px 4px 10px #0d000f69;
   border-end-end-radius: 5px;
   border-end-start-radius: 5px;
   border-start-end-radius: 5px;
   border-radius: 15px;
+  overflow: hidden;
 }
 
-div#imageid{
-  width: 250px;
-  height: 250px;
+article#astronaut-image{
+  width: 60vw;
+  height: 40vh;
   background: url(../img/astronauta.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -69,13 +62,21 @@ div#imageid{
   display: block;
 }
 
-#formularioid{
-  width: 250px;
+article#form-article{
+  height: 40vh;
+  width: 60vw;
   background-color: #fdfdfd;
   border-radius: 0px 0px 15px 15px;
   box-sizing: border-box;
   padding: 10px;
   display: block;
+}
+
+form{
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1{
@@ -95,7 +96,9 @@ span{
 
 input.data{
   padding: 7px 5px 7px 5px;
-  width: 81%;
+  width: 80%;
+  height: 24px;
+  margin-bottom: 6px;
   border-radius: 7px;
   border-color: var(--cor3);
   border-top-color: var(--cor3);
@@ -105,7 +108,6 @@ input.data{
 
 div#buttonarea{
   width: 100%;
-
 }
 
 .btnforgot{
@@ -118,7 +120,7 @@ div#buttonarea{
   font-size: 0.9rem;
   font-weight: 900;
   cursor: pointer;
-  margin-top: 10px;
+  margin-bottom: 4px;
 }
 
 .btnforgot:hover{
@@ -135,7 +137,7 @@ input.btn{
   color: white;
   font-size: 0.9rem;
   font-weight: 900;
-  margin-top: 3px;
+
   cursor: pointer;
 }
 
