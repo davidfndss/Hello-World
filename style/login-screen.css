@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-  --cor1: #50175E;
-  --cor2: #43134A;
-  --cor3: #03061E;
-  --cor4: #A8265D;
-  --cor5: #adadad;
+  --color1: #50175E;
+  --color2: #43134A;
+  --color3: #03061E;
+  --color4: #A8265D;
+  --color5: #adadad;
 }
 
 .material-symbols-outlined {
@@ -29,7 +29,7 @@
 /*-----------------------------------------------------------*/
 
 body{
-  /*background-image: linear-gradient(var(--cor1),var(--cor3) to bottom);*/
+  /*background-image: linear-gradient(var(--color1),var(--color3) to bottom);*/
   background: url(../img/fundo-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@ form{
 
 h1{
   font-size: 30px;
-  color: var(--cor3);
+  color: var(--color3);
   text-align: center;
   padding: 2px;
   font-family: 'League Spartan', sans-serif;
@@ -91,7 +91,7 @@ h1{
 span{
   top: 7px;
   position: relative;
-  color: var(--cor2);
+  color: var(--color2);
 }
 
 input.data{
@@ -100,10 +100,10 @@ input.data{
   height: 24px;
   margin-bottom: 6px;
   border-radius: 7px;
-  border-color: var(--cor3);
-  border-top-color: var(--cor3);
-  border-left-color: var(--cor3);
-  border-right-color: var(--cor3);
+  border-color: var(--color3);
+  border-top-color: var(--color3);
+  border-left-color: var(--color3);
+  border-right-color: var(--color3);
 }
 
 div#buttonarea{
@@ -115,7 +115,7 @@ div#buttonarea{
   width: 100%;
   border-radius: 7px;
   background-color: white;
-  color: var(--cor1);
+  color: var(--color1);
   border: solid 2px gray;
   font-size: 0.9rem;
   font-weight: 900;
@@ -124,7 +124,7 @@ div#buttonarea{
 }
 
 .btnforgot:hover{
-  background-color: var(--cor3);
+  background-color: var(--color3);
   color: white;
   transition: 0.8s;
 }
@@ -133,7 +133,7 @@ input.btn{
   padding: 7px 10px 7px 10px;
   width: 100%;
   border-radius: 7px;
-  background-color: var(--cor1);
+  background-color: var(--color1);
   color: white;
   font-size: 0.9rem;
   font-weight: 900;
@@ -142,31 +142,31 @@ input.btn{
 }
 
 input.btn:hover{
-  background-color: var(--cor3);
+  background-color: var(--color3);
   transition: 0.8s;
 }
 
 footer{
   font-size: 15px;
-  color: var(--cor1);
+  color: var(--color1);
   position: absolute;
   bottom: 4px;
   margin: auto;
   text-align: center;
   width: 100vw;
-  text-shadow: 1px 1px 1px var(--cor3);
+  text-shadow: 1px 1px 1px var(--color3);
 }
 
 footer a{
   font-size: 15px;
-  text-decoration: none;
+  text-decoloration: none;
   color: #A8265D;
   text-shadow: none;
   cursor: pointer;
 }
 
 footer a:hover{
-  color: var(--cor5);
+  color: var(--color5);
   transition: 0.5s;
   text-shadow: none;
 }

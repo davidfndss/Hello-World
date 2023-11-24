@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="style/account-create-screen.css">
-    <link rel="stylesheet" href="style/account-create-media-queries.css">
+    <link rel="stylesheet" href="../style/sign-up-screen.css">
+    <link rel="stylesheet" href="../style/sign-up-screen-media-queries.css">
 </head>
 <body>
     
@@ -15,24 +15,26 @@
         <form action="a.php" method="post" autocomplete="on">
             
             <label for="usernameid">Nome de usuário:</label>
-            <input type="text" name="" id="usernameid" placeholder="Defina aqui um nome de usuário">
+            <input type="text" name="sign-up-username" id="usernameid" placeholder="Defina aqui um nome de usuário">
 
             <br>
 
             <label for="emailid">E-mail:</label>
-            <input type="email" name="" id="emailid" placeholder="Seu endereço de e-mail">
+            <input type="email" name="sign-up-email" id="emailid" placeholder="Seu endereço de e-mail">
             
             <br>
     
             <label for="passwordid">Senha:</label>
-            <input type="password" name="" id="passwordid" placeholder="Defina aqui a sua senha">
+            <input type="password" name="sign-up-password" id="passwordid" placeholder="Defina aqui a sua senha">
             <p>no mínimo 6 caracteres, obrigatório conter letras e números</p>
             
         <div id="buttonareaid">
-            <input type="submit" id="submitid" value="Cadastrar">
-                </form>
-                <img src="img/favicon.png" alt="">
+            <input type="submit" id="submitid" value="Cadastrar">  
+            <img src="../img/favicon.png" alt="icon">
         </div>
+        
+    </form>
+        
     </main> 
 </body>
 </html>

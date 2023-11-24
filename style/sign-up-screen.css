@@ -6,12 +6,12 @@
 /* font-family: 'League Spartan',*/
 
 :root{
-  --cor1: #50175E;
-  --cor2: #43134A;
-  --cor3: #03061E;
-  --cor4: #A8265D;
-  --cor5: #adadad;
-  --cor6: #8f00a1;
+  --color1: #50175E;
+  --color2: #43134A;
+  --color3: #03061E;
+  --color4: #A8265D;
+  --color5: #adadad;
+  --color6: #8f00a1;
 }
 
 ::-webkit-scrollbar{
@@ -29,7 +29,7 @@
 
 body{
     background-color: #03061E;
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    background-image: linear-gradient(to bottom, var(--color1), var(--color3));
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
@@ -83,7 +83,7 @@ div#buttonareaid{
 
 input#submitid{
     color: white;
-    background-color: var(--cor1);
+    background-color: var(--color1);
     padding: 15px 10%;
     border-radius: 7px;
     border: solid 2px #43134A;
@@ -94,17 +94,13 @@ input#submitid{
 }
 
 input#submitid:hover{
-    background-color: var(--cor3);
+    background-color: var(--color3);
     font-weight: bolder;
-    border: var(--cor3) 2px solid;
-    /*-webkit-box-shadow:inset 0px 0px 0px 1px var(--cor4);*/
+    border: var(--color3) 2px solid;
+    /*-webkit-box-shadow:inset 0px 0px 0px 1px var(--color4);*/
     transition: 0.5s;
 }
 
-img{
-    height: 0px;
-    width: 0px;
-}
 
 img:hover{
     opacity: 90%;
