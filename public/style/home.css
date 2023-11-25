@@ -79,18 +79,18 @@ div#add-post-area input{
     border: none;
 }
 
-div#post{
+div.post{
     padding: 10px 10px 0px 10px;
     background-color: var(--color3);
     border-bottom: var(--color4) solid 2px;
     border-radius: 7px;
 }
 
-div#post h2{
+div.post h2{
     color: var(--color5);
 }
 
-div#post i{
+div.post i{
     color: var(--color5);
     font-size: 25px;
     position: relative;
