@@ -1,5 +1,5 @@
 <header>
-        <img src="img/favicon.png" alt="icon" id="icon-header">
+        <img src="/img/favicon.png" alt="icon" id="icon-header">
         <h1>Hello World</h1>
     </header>
 
@@ -13,12 +13,14 @@
             <h2 class="username">Olá!</h2>
             <h2>blablablablablabalbabaal blabablablablabbla</h2>
             <i class="bi bi-heart"></i>
+            <i class="bi bi-trash"></i>
         </div>
         {{#each posts}}
             <div class="post">
                     <h2 class="username">{{username}}</h2>
                     <h2>{{text}}</h2>
                     <i class="bi bi-heart"></i>
+                    <a href="/delete/{{id}}"><i class="bi bi-trash"></i></a>
             </div>
         {{/each}}
     </main>
